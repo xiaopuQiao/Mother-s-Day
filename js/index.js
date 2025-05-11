@@ -37,7 +37,7 @@ var S = {
 setTimeout(function(){
   renderLove(document.getElementById('pinkboard'));
   document.getElementById('child').style.display="block";
-},24500)
+},22500)
 
 
 S.Drawing = (function () {
