@@ -37,7 +37,7 @@ var S = {
 setTimeout(function(){
   renderLove(document.getElementById('pinkboard'));
   document.getElementById('child').style.display="block";
-},18500)
+},24500)
 
 
 S.Drawing = (function () {
@@ -212,7 +212,7 @@ S.UI = (function () {
         default:
           S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'What?' : current));
       }
-    }, 3000, sequence.length);
+    }, 5000, sequence.length);
   }
 
   function checkInputWidth(e) {
